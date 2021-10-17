@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Libraries\AssetRipperCommon.dll" />
+		<Reference Include="Libraries\AssetRipperCore.dll" />
+		<Reference Include="Libraries\AssetRipperLibrary.dll" />
+	</ItemGroup>
+
+</Project>
